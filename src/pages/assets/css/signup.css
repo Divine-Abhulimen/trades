@@ -1,0 +1,24 @@
+#signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.form-container{
+    height: 95vh;
+}
+
+#signup-form {
+    display: flex;
+    gap: 1vh;
+}
+
+form input {
+    height: 3vh;
+    border: 1px solid rgb(134, 131, 131);
+    border-radius: 5px;
+    width: 25vw;
+}
